@@ -34,10 +34,8 @@
 		B3B540F81F061C2300408912 /* arrow_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_left@3x.png"; sourceTree = "<group>"; };
 		B3B540F91F061C2300408912 /* arrow_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_right@3x.png"; sourceTree = "<group>"; };
 		B3B540FB1F061C2300408912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localize.strings; sourceTree = "<group>"; };
-		B3B540FC1F061C2300408912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localize.strings; sourceTree = "<group>"; };
 		B3B540FD1F061C2300408912 /* failure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "failure@3x.png"; sourceTree = "<group>"; };
 		B3B540FE1F061C2300408912 /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
-		B3B540FF1F061C2300408912 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localize.strings"; sourceTree = "<group>"; };
 		B3B541011F061C2300408912 /* ElasticRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticRefreshControl.swift; sourceTree = "<group>"; };
 		B3B541021F061C2300408912 /* ElasticRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticRefreshHeader.swift; sourceTree = "<group>"; };
 		B3B541031F061C2300408912 /* Footer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
@@ -231,8 +229,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B3B540FB1F061C2300408912 /* Base */,
-				B3B540FC1F061C2300408912 /* en */,
-				B3B540FF1F061C2300408912 /* zh-Hans */,
 			);
 			name = Localize.strings;
 			sourceTree = "<group>";
