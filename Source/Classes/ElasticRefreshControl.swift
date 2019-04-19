@@ -72,7 +72,7 @@ open class ElasticRefreshControl: UIView {
         #if swift(>=4.2)
         spinner.style = .gray
         #else
-        spinner.activityIndicatorViewStyle = .gray
+        spinner.style = .gray
         #endif
     }
    open override func layoutSubviews() {

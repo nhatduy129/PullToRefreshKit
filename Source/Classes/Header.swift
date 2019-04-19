@@ -102,7 +102,7 @@ open class DefaultRefreshHeader: UIView, RefreshableHeader {
     #if swift(>=4.2)
     public let spinner:UIActivityIndicatorView = UIActivityIndicatorView(style: .gray)
     #else
-    public let spinner:UIActivityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+    public let spinner:UIActivityIndicatorView = UIActivityIndicatorView(style: .gray)
     #endif
     public let textLabel:UILabel = UILabel(frame: CGRect(x: 0,y: 0,width: 140,height: 40))
     public let imageView:UIImageView = UIImageView(frame: CGRect.zero)
@@ -415,7 +415,7 @@ open class RefreshHeaderContainer:UIView{
         #if swift(>=4.2)
         RunLoop.main.add(self.delayTimer!, forMode: RunLoop.Mode.common)
         #else
-        RunLoop.main.add(self.delayTimer!, forMode: RunLoopMode.commonModes)
+        RunLoop.main.add(self.delayTimer!, forMode: RunLoop.Mode.common)
         #endif
     }
     func clearTimer(){

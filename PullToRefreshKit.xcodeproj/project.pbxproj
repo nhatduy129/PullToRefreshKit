@@ -167,14 +167,14 @@
 					B3B540C71F061B8300408912 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = R7X999328A;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = B3B540C21F061B8300408912 /* Build configuration list for PBXProject "PullToRefreshKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -377,8 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Leo-Huang.PullToRefreshKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -398,8 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Leo-Huang.PullToRefreshKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
