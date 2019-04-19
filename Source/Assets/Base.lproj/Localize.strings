@@ -6,21 +6,21 @@
   Copyright © 2016年 Leo. All rights reserved.
 */
 
-pullDownToRefresh = "Pull to refresh";
+pullDownToRefresh = "Kéo xuống để cập nhật";
 
-releaseToRefresh = "Release to refresh";
+releaseToRefresh = "Thả ra để tải lại";
 
-refreshSuccess = "Update successful";
+refreshSuccess = "Cập nhật thành công";
 
-refreshFailure = "Update failed";
+refreshFailure = "Cập nhật thất bại";
 
-refreshing = "Refreshing...";
+refreshing = "Đang tải lại...";
 
-pullUpToRefresh = "Scroll to load";
+pullUpToRefresh = "Lướt để tải";
 
-noMoreData = "No more data";
+noMoreData = "Đã hết dữ liệu";
 
-tapToRefresh = "Tap to refresh";
+tapToRefresh = "Chạm vào để làm mới";
 
-scrollAndTapToRefresh = "Scroll or tap to load";
+scrollAndTapToRefresh = "Lướt hoặc chạm vào để tải lại";
 
