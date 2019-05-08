@@ -105,6 +105,7 @@ public enum FooterRefresherState {
     case refreshing //刷新中
     case normal //正常状态，转换到这个状态会结束刷新
     case noMoreData //没有数据，转换到这个状态会结束刷新
+    case hidden
     case removed //移除
 }
 
@@ -148,13 +149,18 @@ public extension UIScrollView{
         let footer = self.viewWithTag(PullToRefreshKitConst.footerTag) as? RefreshFooterContainer
         switch state {
         case .refreshing:
+            footer?.isHidden = false
             footer?.beginRefreshing()
         case .normal:
+            footer?.isHidden = false
             footer?.endRefreshing()
             footer?.resetToDefault()
         case .noMoreData:
+            footer?.isHidden = false
             footer?.endRefreshing()
             footer?.updateToNoMoreData()
+        case .hidden:
+            footer?.isHidden = true
         case .removed:
             footer?.removeFromSuperview()
         }

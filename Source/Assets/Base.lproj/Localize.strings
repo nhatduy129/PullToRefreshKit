@@ -14,7 +14,7 @@ refreshSuccess = "Cập nhật thành công";
 
 refreshFailure = "Cập nhật thất bại";
 
-refreshing = "Đang tải lại...";
+refreshing = "Đang tải...";
 
 pullUpToRefresh = "Lướt để tải";
 
